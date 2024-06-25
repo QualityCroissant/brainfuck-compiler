@@ -11,7 +11,10 @@ Dependencies:
 1. bash
 2. nasm
 3. ld
-4. A C compiler, if the intention is to build it from source (clang is assumed by default)
+
+Dependencies for building from source:
+1. A C compiler (clang is assumed by default)
+2. make
 
 To compile:
 1. Use bin/bfc \<brainfuck file\>
