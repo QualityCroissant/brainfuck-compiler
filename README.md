@@ -1,5 +1,5 @@
 # brainfuck-compiler
-A Brainfuck compiler for Linux x86_64
+**A Brainfuck compiler for Linux x86_64**
 
 The primary source code is located under src/
 
