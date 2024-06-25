@@ -6,6 +6,6 @@ Files used during compilation are located under lib/
 Files which the user is intended to interact with are located under bin/
 
 To compile:
-1. Use bin/bfc <brainfuck file>
-2. This will create a directory, <brainfuck file>.build
-3. In this directory your binary can be found, under the same name as <brainfuck file>
+1. Use bin/bfc \<brainfuck file\>
+2. This will create a directory, \<brainfuck file\>.build
+3. In this directory your binary can be found, under the same name as \<brainfuck file\>
