@@ -2,7 +2,9 @@
 A Brainfuck compiler for Linux x86_64
 
 The primary source code is located under src/
+
 Files used during compilation are located under lib/
+
 Files which the user is intended to interact with are located under bin/
 
 To compile:
