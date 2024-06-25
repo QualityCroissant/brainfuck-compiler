@@ -8,9 +8,10 @@ Files used during compilation are located under lib/
 Files which the user is intended to interact with are located under bin/
 
 Dependencies:
-1. nasm
-2. ld
-3. A C compiler, if the intention is to build it from source (clang is assumed by default)
+1. bash
+2. nasm
+3. ld
+4. A C compiler, if the intention is to build it from source (clang is assumed by default)
 
 To compile:
 1. Use bin/bfc \<brainfuck file\>
