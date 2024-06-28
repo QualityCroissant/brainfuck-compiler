@@ -16,7 +16,7 @@ Dependencies for building from source:
 1. A C compiler (clang is assumed by default)
 2. make
 
-To compile:
+To compile a brainfuck program:
 1. Use bin/bfc \<brainfuck file\>
 2. This will create a directory, \<brainfuck file\>.build
 3. In this directory your binary can be found, under the same name as \<brainfuck file\>
