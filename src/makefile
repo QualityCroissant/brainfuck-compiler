@@ -1,6 +1,8 @@
 # build bfc.c into ../lib/bfc
 
 CC=clang
+CFLAGS=-Wall -Wextra -O3
+SRC=bfc
 
-build: bfc.c
-	${CC} -Wall -Wextra -O3 bfc.c -o ../lib/bfc
+build: ${SRC}.c
+	${CC} ${CFLAGS} ${SRC}.c -o ../lib/${SRC}
